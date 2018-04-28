@@ -1,0 +1,8 @@
+[{:hostname "ip.of.jump.host"
+  :port 22
+  :username "username-to-jump-host"
+  :private-key-path "/path/to/jump-host/key"  }
+ {:hostname "ip.of.final.host"
+  :port 22
+  :username "username-to-final-host"
+  :private-key-path "/path/to/final/host/key"}]
